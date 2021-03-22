@@ -1,133 +1,200 @@
 # Day 1
 
-_What we will see today_
+## Welcome 🚀
 
-## Starting 🚀
+Hello guys and welcome to this JavaScript course, during these 25 hours we will learn to develop a Web platform. They will know both the backen and the frontend, where our users can watch videos, add them to their list, create their account and log in. I share the link of the project that we are going to carry out / do [MoonMakers-Video](https://moonmakers-video.herokuapp.com/). I am Diego Francisco Luna a Full Stack developer, co-founder of MoonMakers a community, MakerSpace and a YouTube channel.
 
-_The tools you need._
+## What is web development? 1/2 👨‍💻
 
-* [Git](https://git-scm.com/) - Download with the link
-* [VS code](https://code.visualstudio.com/) - Download with the link
-* [Node.js](https://nodejs.org/en/) - Download the LTS with the link
+### Why is it important to learn to program?
 
-### Instalación 🔧
+Programming is a fundamental tool in the world we live in. In addition, their learning is an opportunity to improve logical reasoning.
 
-_We continue with the instructions that they ask us_
+### What is web development?
 
+Web development means building and maintaining websites.
+A web page has super important characteristics such as speed, appearance, and user experience
 
-## Terminal commands  ⚙️
+## What tools are used in Web development?
 
-  ### macOS  and Linux 🔩
+The web is made of:
 
-| Command | Description|
-| ----- | ---- |
-| ``` pwd ``` | Where are you |
-| ``` ls ``` | What files are there |
-| ``` ls -al ``` | We see everything in detail |
-| ``` cd (binder) ``` | We go into folders |
-| ``` cd .. ``` | Get out of our folder |
-| ``` mkdir (name) ``` | We create a folder |
-| ``` rmdir (name) ``` | To delete a carpet |
-| ``` nano (name.text) ``` | To create or modify a file |
-| ``` rm (name) ``` | To delete a file |
-| ``` history ``` | To see what commands you have used |
+- Html5 what is the structure.
+- Css3 which are the styles of a page.
+- JS is the functionality of our platform or web application.
 
-   ### Windows  ⌨️
+When developing we use:
 
-| Command | Description|
-| ----- | ---- |
-| ``` cd ``` | Where are you |
-| ``` dir ``` | What files are there |
-| ``` cd (binder) ``` | We go into folders |
-| ``` cd .. ``` | Get out of our folder |
-| ``` mkdir (name) ``` | We create a folder |
-| ``` rmdir (name) ``` | To delete a carpet |
-| ``` del (name) ``` | To delete a file |
-| ``` doskey /h F7 key ``` | To see what commands you have used |
+- Libraries that help us speed up tasks.
+- Frameworks that are a set of libraries and rules that help us in our projects.
 
+## Terminal -5 minutes-
+
+Let's open the terminal
+
+Mine is a little different because I have a special framework that we are going to download [ohmyz](https://ohmyz.sh/)
+
+For those who have not yet downloaded Git, I share the link through the messages [Git](https://git-scm.com/), we click and start downloading
+
+Git is a very important tool for every programmer because it takes our project from the beginning to the end and we can make changes to it on the timeline
+
+Terminal:
+
+### macOS  and Linux 🔩
+
+| Command            | Description                        |
+| ------------------ | ---------------------------------- |
+| `pwd`              | Where are you                      |
+| `ls`               | What files are there               |
+| `ls -al`           | We see everything in detail        |
+| `cd (binder)`      | We go into folders                 |
+| `cd ..`            | Get out of our folder              |
+| `mkdir (name)`     | We create a folder                 |
+| `rmdir (name)`     | To delete a carpet                 |
+| `nano (name.text)` | To create or modify a file         |
+| `rm (name)`        | To delete a file                   |
+| `history`          | To see what commands you have used |
+
+### Windows ⌨️
+
+| Command            | Description                        |
+| ------------------ | ---------------------------------- |
+| `cd`               | Where are you                      |
+| `dir`              | What files are there               |
+| `cd (binder)`      | We go into folders                 |
+| `cd ..`            | Get out of our folder              |
+| `mkdir (name)`     | We create a folder                 |
+| `rmdir (name)`     | To delete a carpet                 |
+| `del (name)`       | To delete a file                   |
+| `doskey /h F7 key` | To see what commands you have used |
 
 ## Git basics 📦
 
-| Command | Description |
-| ----- | ----- |
-| ``` git --version ```  | What version of git do we have? |
-| ``` git init ```  | We start a repository |
-| ``` git config --global user.name "SC" ```  | configure git, name |
-| ``` git config --global user.email "noseque@hotmail.com" ```  | configure git, email |
-| ``` git config --list ```  | configure git |
-| ``` git status ```  | See the files, and see if they are already added to the hostory or if they are missing |
-| ``` git add (name) ```  | Add a file to our story |
-| ```  git add . ```  | Add everything to the story. |
-| ```  git rm --cached archivo.txt ```  | Remove from prep area |
+| Command                                                | Description                                                                            |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| `git --version`                                        | What version of git do we have?                                                        |
+| `git init`                                             | We start a repository                                                                  |
+| `git config --global user.name "SC"`                   | configure git, name                                                                    |
+| `git config --global user.email "noseque@hotmail.com"` | configure git, email                                                                   |
+| `git config --list`                                    | configure git                                                                          |
+| `git status`                                           | See the files, and see if they are already added to the hostory or if they are missing |
+| `git add (name)`                                       | Add a file to our story                                                                |
+| ` git add .`                                           | Add everything to the story.                                                           |
+| ` git rm --cached archivo.txt`                         | Remove from prep area                                                                  |
 
+## Basic JS, 45 minutes. 🛠️
 
-## Basic JS 🛠️
+We use the VScode extension, called Code Runner.
 
-_There is a folder with the concepts and examples of them "Basic JS"_
+- Values, Values, (Boolean, null, undefined, array, objects)
+- variables
+- functions
+- scope
+- hoisting
+- coercion
+- Operators
+- if
+- switch
+- arrays
+- loops
+- objects
+- Constructor function
+
+Challenge js, 10 minutes. Rock, paper or scissors
 
 ## Create React app 🖇️
 
-Create React application with command in terminal:
+React is a JS library that allows us to create platforms such as Facebook, Spotify, Netflix and many more. Which makes it the best option to create.
+
+We open the terminal and put this code:
 
 ```
-  npx create-react-app my-app
-```
-
-We entered our project and started
-```
-  cd my-app
+  npx create-react-app moonmakers-video
+  cd moonmakers-video
   npm start
 ```
 
+The official React [documentation](https://reactjs.org/)
 
-the official React [documentation](https://reactjs.org/)
+The http://localhost:3000/ opens, and we have our application running.
+
+We open VScode and select the folder of our project, we already have the base files of our react project.
+
+We click on App.js, The HTML is the structure of our project, the titles, paragraphs, images, links and more, we will do some examples:
 
 ## HTTML 5 📖
 
 [more html tags](https://htmlreference.io/)
 
-works with tags, these have properties that help us create our web project.
+We create a title with:
 
-### labels
+| Html                                   |
+| ------------------------------------- |
+| ```<h1> Hello world </h1>``` |
 
-| Command | Description |
-| ----- | ----- |
-| ``` <h1> my title </h1> ``` | Main title |
-| ``` <h2> my title </h2> <h3> my title </h3> ``` | Other titles |
-| ``` <p> paragraphs </p> ``` | The tag for paragraphs |
-| ``` <a href="https://moonmakers.org">Text</a> ``` | To add links |
-| ``` <ol> <li>Step one</li> </ol> ``` | Ordered list |
-| ``` <ul> <li>Step one</li> </ul> ``` | Unordered list |
-| ``` <img src="/images/test.jpg" alt="description" /> ``` | To add an image |
-| ``` <div> </div> ``` | To order our our content |
-| ``` <<section> </section>> ``` | To order our our content |
+A paragraph with:
+
+| Html                                   |
+| ------------------------------------- |
+| ```<p> welcome to react </p>``` |
+
+A link with:
+
+| Html                                   |
+| ------------------------------------- |
+| ```<a href="https://moonmakers.org"> Link </a>``` |
+
+A container and a title:
+
+| Html                                   |
+| ------------------------------------- |
+| ```<div> <h2> hello react </h2> </div>``` |
 
 
 ## CSS 3 📌
 
 [more styles with CSS](https://cssreference.io/)
 
-There are 3 ways to put styles to our html.
+We click on the App.css file
 
-| kind | Html | Css |
-| -----| ----- | ----- |
-| lessons | ``` <div class="class-div" > </div> ``` | ``` .class-div {   }  ``` |
-| id | ``` <div id="class-div" > </div> ``` | ``` #class-div {   }  ``` |
-| native | ``` <div> </div> ``` | ``` div {   }  ``` |
+The css is the styles of our page, the colors, the size of our letters, animations.
 
+we're going to style our title tag with:
 
+| Css                                   |
+| ------------------------------------- |
+| `h1 {  }` |
 
-The styles of our html tags, there are many types:
+we put the styles:
 
-| kind | Html | Css |
-| -----| ----- | ----- |
-| size | ``` <div> </div> ``` | ``` div { height: 500px; width: 500px; }  ``` |
-| source | ``` <p> Text </p> ``` | ``` p { font-size: 1px; color: red; }  ``` |
-| background | ``` <div> <p> Text </p> </div>``` | ``` div { background-image: url(/images/jt.png); } p { background-color: red; }  ``` |
+| Css                                   |
+| ------------------------------------- |
+| `h1 { font-size: 55px; color: red; }` |
 
-and more: [more styles with CSS](https://cssreference.io/)
+And our paragraph tag:
 
+| Css                                  |
+| ------------------------------------ |
+| `p { font-size: 25px; color: red; }` |
 
+And our link tag:
 
+| Css |
+| --- |
+| ``` a { font-size: 25px;  color: white;  text-decoration: none; } ```|
 
----
+we add classes to our container and title:
+
+| Html |  Css |
+| --- | --- |
+ ``` <div className="container"> <h2 className="title"> hello react </h2> </div> ```| ``` .container{  height: 500px;  width: 500px;  background-color: white; 	}   .title { color: black; } ```|
+
+We add a hover to it, which is when the mouse is over our label and we add an action to it:
+
+| Css |
+| --- |
+| ``` h1: hover { color: blue; font-size: 110px; } ```|
+
+For more Css Link: https://cssreference.io/ 
+
+For more Html Link: https://htmlreference.io/ 

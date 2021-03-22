@@ -10,4 +10,4 @@ var MyFunction = function (a, b) {
   return a + b;
 }
 
-MyFunction ()
+console.log(MyFunction(2,2));

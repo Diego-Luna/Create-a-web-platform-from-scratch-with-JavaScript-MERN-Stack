@@ -14,3 +14,5 @@ if (age === 18) {
 var number = 1;
 
 var result = number === 1 ? "if I am a 1" : "I am not 1";
+
+console.log(result);

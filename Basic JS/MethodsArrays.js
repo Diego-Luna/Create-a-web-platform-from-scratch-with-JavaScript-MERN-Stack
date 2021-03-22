@@ -9,9 +9,11 @@ var articles = [
 ];
 // .filter: allows us to filter only the elements we want
 // (according to certain criteria) and return them in a new array.
-var articlesFiltered = articles.filter(function (article) {
+var articlesFiltered = articles.filter(function (item) {
   return item.cost <= 500;
 });
+console.log(articlesFiltered);
+console.log("-------------------");
 
 // .map: create a new array with the results of the function call
 // indicated applied to each of its elements.
@@ -19,19 +21,30 @@ var articleName = articles.map(function (article) {
   return article.name;
 });
 
+console.log(articleName);
+console.log("-------------------");
+
 // find (): Returns the first element of the array that meets the given condition
 var findArticle = articles.find(function (article) {
   return article.name === "Laptop";
 });
+
+console.log(findArticle);
+console.log("-------------------");
 
 // foreach (): Execute what we define once for each element of our array
 articles.forEach(function (article) {
   console.log(article.name);
 });
 
+console.log("-------------------");
+
 // some (): Checks if at least one element of the array meets the condition
 // what do I give you.
 // It generates a new arrray
-var articlesBaratos = articles.some(function (article) {
+var articlesBaratos = articles.some(function (item) {
   return item.cost <= 700;
 });
+
+console.log(articlesBaratos);
+console.log("-------------------");

@@ -2,8 +2,10 @@
 // 1- Global:
 var myName = "Diego";
 
+console.log(myName);
+
 // 2- Local:
-function name () {
+function Name() {
      var mySurname = "Moon";
      console.log (myName + "" + mySurname);
 }

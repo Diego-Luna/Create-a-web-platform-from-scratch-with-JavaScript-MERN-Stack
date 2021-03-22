@@ -1,13 +1,13 @@
 // this returns an undefined
-console.log (myName);
+console.log(myName);
 
 var myName = "Diego";
 
 // the function works but the variable sets us undefined
-hey ();
+hey();
 
-function hey () {
-   console.log ("Hello" + Name);
+function hey() {
+   console.log("Hello" + myName);
 }
 
 var myName = "Diego"

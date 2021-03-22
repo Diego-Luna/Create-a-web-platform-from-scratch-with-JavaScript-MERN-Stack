@@ -1,5 +1,7 @@
 var number = 1;
 
+console.log(number);
+
 switch (number) {
    case 1:
      console.log ('I am one');

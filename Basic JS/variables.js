@@ -1,11 +1,21 @@
 // the first one is -> var <-
 // the semicolon is for good practice
-var Nombre = "Diego";
-var edad;
+var Name = "Diego";
 
-edad = 30;
+console.log(Name);
 
-var persona = {
-  nomre: "Diego",
-  edad: '30'
+var age;
+
+console.log(age);
+
+age = 30;
+
+console.log(age);
+
+
+var person = {
+  name: "Diego",
+  age: '30'
 };
+
+console.log(person);
