@@ -1,3 +1,5 @@
+// we select it and do left click or double click, and select Code Runner
+
 // JS is a language that is designed in an object paradigm
 var myAuto = {
   brand: "Toyota",
@@ -11,7 +13,8 @@ console.log(myAuto);
 console.log(myAuto.brand);
 // "Toyota"
 
-// You can add properties that are going to be a function, they are called object methods.
+// objects can have functions, like property
+
 var myAuto = {
   brand: "Toyota",
   model: "Corolla",
@@ -22,7 +25,7 @@ var myAuto = {
 }
 
 console.log(myAuto);
-myAuto.AutoDetails ();
+myAuto.AutoDetails();
 
 // myAutoDetailsOfAuto ();
 // Auto Corolla 2020

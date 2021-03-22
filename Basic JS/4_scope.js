@@ -1,3 +1,9 @@
+// the scope is the scope of our variables,
+// there is global, which can be used in all code
+// and local, that only in that sona where it is created
+
+// we select it and do left click or double click, and select Code Runner
+
 // The scope of a variable can be:
 // 1- Global:
 var myName = "Diego";

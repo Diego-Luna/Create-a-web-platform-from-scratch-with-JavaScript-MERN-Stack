@@ -1,12 +1,15 @@
 
-// Las funciones son fracmentos de codigo que se ejecutara cuando lo llammemos
+// Functions are snippets of code that will be executed when we call it
 
-// para crear una funcion usamos la palabra "function"
+// to create a function we use the word "function"
+// we give it a name
+// we make it give us a value
 
+// we select it and do left click or double click, and select Code Runner
 
 // declarative functions
 
-function myFunction (params) {
+function myFunction(params) {
   return 3;
 }
 

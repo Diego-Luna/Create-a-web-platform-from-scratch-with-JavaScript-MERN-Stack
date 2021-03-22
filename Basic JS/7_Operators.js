@@ -1,3 +1,7 @@
+// operators are actions that we can do in our code, like:
+
+// we select it and do left click or double click, and select Code Runner
+
 // Binary operators:
 console.log( 3 + 2 ); // Sum
 console.log( 50 - 10 ); // Subtraction

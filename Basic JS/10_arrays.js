@@ -1,3 +1,9 @@
+// Arrays, it has very useful functions that allow us to:
+// have super powers when programming
+
+// we select it and do left click or double click, and select Code Runner
+
+
 var fruits = ["Apples", "Banana", "Cherry", "Strawberry"];
 
 console.log(fruits);

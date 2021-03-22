@@ -1,3 +1,8 @@
+// we can create functions, which in turn create objects
+
+// we select it and do left click or double click, and select Code Runner
+
+
 function Auto(brand, model, year) {
   this.brand = brand;
   this.model = model;
