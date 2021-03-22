@@ -2,7 +2,12 @@
 
 ## Welcome 🚀
 
-Hello guys and welcome to this JavaScript course, during these 25 hours we will learn to develop a Web platform. They will know both the backen and the frontend, where our users can watch videos, add them to their list, create their account and log in. I share the link of the project that we are going to carry out / do [MoonMakers-Video](https://moonmakers-video.herokuapp.com/). I am Diego Francisco Luna a Full Stack developer, co-founder of MoonMakers a community, MakerSpace and a YouTube channel.
+Hello guys and welcome to this JavaScript course, during these 25 hours we will learn to develop a Web platform. They will know both the backen and the frontend, where our users can watch videos, add them to their list, create their account and log in. I share the link of the project that we are going to do: [MoonMakers-Video](https://moonmakers-video.herokuapp.com/). I am Diego Francisco Luna a Full Stack developer, co-founder of MoonMakers a community, MakerSpace and a YouTube channel.
+
+Perfect I would like you to introduce yourself:
+* what is your name?
+* where are they from?
+* What do you like to do?
 
 ## What is web development? 1/2 👨‍💻
 
@@ -77,7 +82,7 @@ Terminal:
 | `git config --global user.name "SC"`                   | configure git, name                                                                    |
 | `git config --global user.email "noseque@hotmail.com"` | configure git, email                                                                   |
 | `git config --list`                                    | configure git                                                                          |
-| `git status`                                           | See the files, and see if they are already added to the hostory or if they are missing |
+| `git status`                                           | See the files, and see if they are already added to the history or if they are missing |
 | `git add (name)`                                       | Add a file to our story                                                                |
 | ` git add .`                                           | Add everything to the story.                                                           |
 | ` git rm --cached archivo.txt`                         | Remove from prep area                                                                  |
@@ -124,8 +129,6 @@ We click on App.js, The HTML is the structure of our project, the titles, paragr
 
 ## HTTML 5 📖
 
-[more html tags](https://htmlreference.io/)
-
 We create a title with:
 
 | Html                                   |
@@ -150,10 +153,7 @@ A container and a title:
 | ------------------------------------- |
 | ```<div> <h2> hello react </h2> </div>``` |
 
-
 ## CSS 3 📌
-
-[more styles with CSS](https://cssreference.io/)
 
 We click on the App.css file
 
@@ -198,3 +198,7 @@ We add a hover to it, which is when the mouse is over our label and we add an ac
 For more Css Link: https://cssreference.io/ 
 
 For more Html Link: https://htmlreference.io/ 
+
+## Challenge ⚡︎
+
+replicate the home of MoonMakers Video

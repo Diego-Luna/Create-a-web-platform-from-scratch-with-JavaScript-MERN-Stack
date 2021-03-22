@@ -1,3 +1,9 @@
+
+// Las funciones son fracmentos de codigo que se ejecutara cuando lo llammemos
+
+// para crear una funcion usamos la palabra "function"
+
+
 // declarative functions
 
 function myFunction (params) {

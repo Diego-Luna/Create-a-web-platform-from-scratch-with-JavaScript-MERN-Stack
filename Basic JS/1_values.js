@@ -1,3 +1,15 @@
+// the values are information that we can save.
+// such as name, age, address, if you have an account, etc.
+
+
+// we create a variable with "var"
+// we give it a name
+// and we put a value
+
+// we print it to the console.
+
+// we select it and do left click or double click, and select Code Runner
+
 // -> Primitive types <-
 
 // numbers
