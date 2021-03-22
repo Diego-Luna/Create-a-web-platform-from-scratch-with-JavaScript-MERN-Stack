@@ -193,7 +193,7 @@ We add a hover to it, which is when the mouse is over our label and we add an ac
 
 | Css |
 | --- |
-| ``` h1: hover { color: blue; font-size: 110px; } ```|
+| ``` h1:hover { color: blue; font-size: 110px; } ```|
 
 For more Css Link: https://cssreference.io/ 
 
