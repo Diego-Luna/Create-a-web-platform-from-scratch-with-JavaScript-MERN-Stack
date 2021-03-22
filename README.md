@@ -73,6 +73,15 @@ Terminal:
 | `del (name)`       | To delete a file                   |
 | `doskey /h F7 key` | To see what commands you have used |
 
+## Download -5 minutes-
+
+For those who have not yet downloaded VSCode (url: https://code.visualstudio.com/),
+
+This is a text editor that will allow us to work with JS and many more languages at the same time that we can customize it either in style or in functions.
+
+For those who have not yet downloaded Node.js (url: https://nodejs.org/en/) we download the LTS,
+
+This allows us to work with JavaScript on the server, and NPM is also included, which is a package manager that we will use later.
 ## Git basics 📦
 
 | Command                                                | Description                                                                            |
@@ -152,16 +161,6 @@ A container and a title:
 | Html                                   |
 | ------------------------------------- |
 | ```<div> <h2> hello react </h2> </div>``` |
-
-## Download -5 minutes-
-
-For those who have not yet downloaded VSCode (url: https://code.visualstudio.com/),
-
-This is a text editor that will allow us to work with JS and many more languages at the same time that we can customize it either in style or in functions.
-
-For those who have not yet downloaded Node.js (url: https://nodejs.org/en/) we download the LTS,
-
-This allows us to work with JavaScript on the server, and NPM is also included, which is a package manager that we will use later.
 
 ## CSS 3 📌
 
